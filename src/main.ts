@@ -22,7 +22,7 @@ async function bootstrap() {
   SwaggerModule.setup('/api-docs', app, document);
 
   await app.listen(port, () => {
-    console.log(`WSV start on port ${port}`);
+    console.log(`wsv start on port ${port}`);
   });
 }
 
